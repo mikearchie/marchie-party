@@ -1,0 +1,56 @@
+
+.navsmall {
+    /*font-size: 50%;*/
+    height: 5%;
+    line-height: 0px;
+}
+
+body {
+    background-image: url("../img/parkcityMed.jpg");
+}
+
+
+/*
+.navbar-brand {
+
+    color: beige;
+    text-shadow: #50a38f .01em .01em 0
+                ,#50a38f .02em .01em 0
+                ;
+    font-size: 200%;
+
+}
+.menu-items {
+    color: beige;
+    text-shadow: #50a38f .01em .01em 0
+                ,#50a38f .02em .01em 0
+                ;
+}
+
+
+.navbarCustom {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: teal;
+    font-weight: normal;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    color: #f4f1de;
+}
+
+
+li {
+    color: #f4f1de;
+    font-size: 200%;
+}
+
+/* Change the link color to #111 (black) on hover */
+/*li a:hover {
+    background-color: #50a38f;
+}*/
+
+/*p {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 24px;
+}*/

@@ -1,0 +1,48 @@
+<!-- The Contact Us page should include a Form with validation written in jQuery and/or JavaScript. A jQuery validation plugin is also acceptable in place of hand coding the validation. The form should submit to a mock “Success.html” page, unless you are setup to submit forms to a PHP file. -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Churros La Luz - Contact us</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz" rel="stylesheet">
+        <link rel="stylesheet" href="css/jquery-ui.min.css">
+        <link rel="stylesheet" href="css/laluz.css">
+
+        <!-- <link rel="stylesheet" href="css/bootstrap-min.css"> -->
+    </head>
+    <body>
+        <h3>Contact us</h3>
+        <form id="contactForm" method="get" action='success.html'>
+            <div class="form-group">
+                <label class="input" for="name">Your name:</label>
+                <input class="form-control" type="text" name="name" id="name" required>
+            </div>
+            <div class="form-group">
+                <label class="input" for="email">Email:</label>
+                <input class="form-control" type="email" name="email" id="email" required>
+            </div>
+            <div class="form-group">
+                <label class="input">Notes:</label>
+                <textarea class="form-control" type="notes" name="notes" id="notes"></textarea>
+            </div>
+            <div class="checkbox">
+                <label></label>
+                <input type="checkbox" name="join" id="join">Join our mailing list</input>
+            </div>
+            <button type="submit" class="btn btn-default" id=submit>Submit</button>
+        </form>
+
+        <div id="dialog">
+            <p>Thanks for reaching out! Please fill out the form and we'll get back to you ASAP.</p>
+        </div>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.16.0/jquery.validate.min.js"></script>
+        <script type="text/javascript" src="js/header.js"></script>
+        <script type="text/javascript" src="js/contactus.js"></script>
+
+    </body>
+</html>
