@@ -1,0 +1,98 @@
+
+.navsmall {
+    /*font-size: 50%;*/
+    height: 5%;
+    line-height: 0px;
+}
+
+body {
+    background-image: url("../img/parkcityMed.jpg");
+    font-family: 'Raleway', sans-serif;
+    font-size: 130%;
+    padding-top: 50px;
+}
+
+.customNavBar {
+    background-color: rgba(0,201,255);
+    text-shadow: 0px 0px 9px rgba(255, 255, 255, 1);
+    /*background-image: url("../img/parkcityCrop.jpg");*/
+    background-size: cover;
+    /*text-shadow: white .01em .01em .01em*/
+                ,white .02em .02em .02em
+                ,white .03em .03em .03em*/
+}
+
+.navbar-nav > li > a {
+  padding-top: 50px;
+  padding-bottom: 0px;
+  line-height: 15px;
+}
+
+.navbarDisappear {
+
+}
+
+@media (min-width: 767px) {
+
+    /*.navbar-nav .open .dropdown-menu > li > a,
+    .navbar-nav .open .dropdown-menu .dropdown-header {
+      padding: 5px 15px 5px 25px;
+    }*/
+    .navbarDisappear {
+      display: none;
+  }
+
+  @media (min-width: 930px) {
+
+      /*.navbar-nav .open .dropdown-menu > li > a,
+      .navbar-nav .open .dropdown-menu .dropdown-header {
+        padding: 5px 15px 5px 25px;
+      }*/
+      .navbarDisappear {
+        display: inherit;
+    }
+
+/*
+.navbar-brand {
+
+    color: beige;
+    text-shadow: #50a38f .01em .01em 0
+                ,#50a38f .02em .01em 0
+                ;
+    font-size: 200%;
+
+}
+.menu-items {
+    color: beige;
+    text-shadow: #50a38f .01em .01em 0
+                ,#50a38f .02em .01em 0
+                ;
+}
+
+
+.navbarCustom {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: teal;
+    font-weight: normal;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    color: #f4f1de;
+}
+
+
+li {
+    color: #f4f1de;
+    font-size: 200%;
+}
+
+/* Change the link color to #111 (black) on hover */
+/*li a:hover {
+    background-color: #50a38f;
+}*/
+
+/*p {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 24px;
+}*/
