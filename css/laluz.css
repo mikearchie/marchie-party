@@ -16,6 +16,21 @@
     font-style: normal;
 }
 
+@media (min-width: 768px) and (max-width: 865px) {
+    .navbar-collapse.collapse {
+        display: none !important;
+    }
+    .navbar-collapse.collapse.in {
+        display: block !important;
+    }
+    .navbar-header .collapse, .navbar-toggle {
+        display:block !important;
+    }
+    .navbar-header {
+        float:none;
+    }
+}
+
 .navsmall {
     /*font-size: 50%;*/
     height: 5%;
